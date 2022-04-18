@@ -1,0 +1,142 @@
+AZURE KINECK EN LINUX
+---------------------------
+
+I
+
+
+
+Intalación - pasos
+------------------
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
+sudo apt-get update
+sudo apt-get install libk4a1.4
+sudo apt install libk4a1.4-dev
+sudo apt install k4a-tools
+
+
+
+
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/18.04/prod
+curl -sSL https://packages.microsoft.com/config/ubuntu/18.04/prod.list | sudo tee /etc/apt/sources.list.d/microsoft-prod.list
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt install libk4a1.3-dev
+sudo apt install libk4abt1.0-dev
+sudo apt install k4a-tools=1.3.0=
+
+
+
+
+sudo apt-get update
+sudo apt install libk4a1.4.1-dev
+sudo apt install k4a-tools=1.3.0=
+
+
+
+
+
+
+17/04/2022 - Camara Azure Kinect MODO RGB
+------------------------------
+La cámara es reconocida en Linux como cámara de color RGB. eL OTRO PASO ES VER SI LA PROFUNDIDAD ES RECONOCIDA.
+
+
+Cleaning files, installing from scratch
+--------------
+sudo apt-get update
+sudo apt-get autoremove
+
+Paquetes necesarios y aplicaciones
+--------------
+sudo apt-get install build-essential
+sudo apt-get install cmake
+sudo apt-get install libgtk2.0-dev
+sudo apt-get install libusb-1.0
+sudo apt-get install ffmpeg
+sudo apt-get install mlocate
+sudo apt-get install locate
+sudo apt install curl
+
+
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
+sudo apt-get update
+
+Install repositories
+----------------
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/18.04/prod
+
+curl -sSL https://packages.microsoft.com/config/ubuntu/18.04/prod.list | sudo tee /etc/apt/sources.list.d/microsoft-prod.list
+
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-get update
+
+Remove old packages installed before new installation
+-------------------
+sudo dpkg --remove libk4a1.3-dev
+sudo dpkg --remove libk4abt1.0-dev
+sudo dpkg --remove libk4a1.3-dev
+sudo dpkg --remove k4a-tools
+
+sudo dpkg --remove libk4a
+sudo dpkg --remove libk4a*
+sudo dpkg --remove libk4abt
+
+sudo apt remove libk4a1.3-dev
+sudo apt remove k4a-tools
+
+
+Listar paquetes
+----------
+apt list -a libk4a*
+apt list -a libk4abt1.1
+sudo apt list -a libk4abt1.1-dev
+
+Remover paquetes
+------------
+sudo apt remove libk4a*
+sudo apt remove libk4abt*
+sudo apt remove libk4a1*
+
+  
+Installling packages
+-------  
+sudo apt-get update
+sudo apt-get install libk4a1.4
+sudo apt install libk4a1.4-dev
+sudo apt install k4a-tools
+
+Copy rules to use Azure Kinect as root
+------------------
+sudo cp 99-k4a.rules /etc/udev/rules.d/
+
+
+Testing k4aviewer
+------
+sudo k4aviewer
+
+
+Now you can install pyk4a
+
+
+
+MUY IMPORTANTE!!!
+-------------------
+
+nO OLVIDAR COPIAR LAS REGLAS A UDEV
+https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md#linux-device-setup
+
+"""
+Linux Device Setup
+
+On Linux, once attached, the device should automatically enumerate and load all drivers. However, in order to use the Azure Kinect SDK with the device and without being 'root', you will need to setup udev rules. We have these rules checked into this repo under 'scripts/99-k4a.rules'. To do so:
+
+    Copy 'scripts/99-k4a.rules' into '/etc/udev/rules.d/'.
+    Detach and reattach Azure Kinect devices if attached during this process.
+
+Once complete, the Azure Kinect camera is available without being 'root'.
+"""
+
+
