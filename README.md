@@ -78,7 +78,7 @@ us Azure Kinect tools without be root user. The file is saved in this repository
 sudo cp 99-k4a.rules /etc/udev/rules.d/
 ```
 
-Testing with tool **[k4aviewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)** to use the official tool
+Testing with tool **[k4aviewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)**.
 ```
 sudo k4aviewer
 ```
@@ -124,4 +124,4 @@ Please contact author to report bugs juancarlos.miranda@udl.cat
 
 ## Citation
 If you find this code useful, please consider citing:
-[azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes).
+[https://github.com/juancarlosmiranda/azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes).
