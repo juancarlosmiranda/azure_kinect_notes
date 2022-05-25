@@ -121,6 +121,8 @@ This section will be updated in the next iterations.
 
 (Azure Kinect SDK 1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
 
+
+
 ## Authorship
 Please contact author to report bugs juancarlos.miranda@udl.cat
 
