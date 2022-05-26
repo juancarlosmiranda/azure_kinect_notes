@@ -1,4 +1,8 @@
+![SOFTWARE_PRESENTATION](https://github.com/juancarlosmiranda/azure_kinect_notes/img/azure_kinect_notes_presentation.png?raw=true)
+
+
 # README - Azure Kinect Setup
+
 This document contains instructions/notes on how to install the Azure Kinect camera.
 This is not intended to replace official documents, it is produced as a complementary guide in my learning.
 Official Microsoft documents can be found at:
@@ -117,9 +121,10 @@ Once complete, the Azure Kinect camera is available without being 'root'.
 
 ## Installing in Windows 10 environments (PENDING).
 This section will be updated in the next iterations.
-(Windows installation instructions)[https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md]
 
-(Azure Kinect SDK 1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
+* (Windows installation instructions)[https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md]
+
+* (Azure Kinect SDK 1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
 
 
 
