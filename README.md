@@ -1,4 +1,4 @@
-![SOFTWARE_PRESENTATION](https://github.com/juancarlosmiranda/azure_kinect_notes/img/azure_kinect_notes_presentation.png?raw=true)
+![SOFTWARE_PRESENTATION](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/azure_kinect_notes_presentation.png?raw=true)
 
 
 # README - Azure Kinect Setup
