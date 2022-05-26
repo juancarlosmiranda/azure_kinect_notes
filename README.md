@@ -4,6 +4,8 @@
 # README - Azure Kinect Setup
 
 This document contains instructions/notes on how to install the Azure Kinect camera.
+Here we collect experiences that have arisen with the development of [GRAP-UdL-AT/ak_sm_recorder](https://github.com/GRAP-UdL-AT/ak_sm_recorder/). A Python-based recorder for use with the Azure Kinect DK camera, if you find this useful let me know.
+
 This is not intended to replace official documents, it is produced as a complementary guide in my learning.
 Official Microsoft documents can be found at:
 
