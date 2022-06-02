@@ -27,7 +27,7 @@ This document is organized as following:
 In Linux systems you can install packages using Bash scripts.
 
 ```
-git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes
+git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera.sh
 ```
 
 
