@@ -24,14 +24,20 @@ This document is organized as following:
 * 3. Installing in Windows 10 environments.
 
 ## 1. Fast setup using scripts in Linux systems
-In Linux systems you can install packages using Bash scripts, tested in Ubuntu 20.04. A super fast script for impatient people.
-Copy and paste it!!!
+In Linux systems you can install packages using Bash scripts, tested in Ubuntu 20.04. A super fast script for impatient people, copy and paste it!!!
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera.sh
 ```
 
+Check the camera with this tool **[k4aviewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)**.
+```
+sudo k4aviewer
+```
+
+
 
 ## 2. Installing in Linux environments
+Follow these instructions if you want to see the installation process step by step.
 Essential tools that are not part of the package, but are useful after a default installation on Ubuntu 20.04 systems. if you have
 installed some of them, ignore this paragraph.
 The official site of the SDK in Gihub is [Using Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)
