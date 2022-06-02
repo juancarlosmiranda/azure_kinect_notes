@@ -19,19 +19,19 @@ Official tools to manage the camera and sensors can be found in:
 
 
 This document is organized as following:
-* Fast setup using scripts.
-* Installing in Linux environments.
-* Installing in Windows 10 environments.
+* 1. Fast setup using scripts in Linux systems.
+* 2. Installing in Linux environments.
+* 3. Installing in Windows 10 environments.
 
-## Fast setup using scripts
-In Linux systems you can install packages using Bash scripts.
-
+## 1. Fast setup using scripts in Linux systems
+In Linux systems you can install packages using Bash scripts, tested in Ubuntu 20.04. A super fast script for impatient people.
+Copy and paste it!!!
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera.sh
 ```
 
 
-## Installing in Linux environments
+## 2. Installing in Linux environments
 Essential tools that are not part of the package, but are useful after a default installation on Ubuntu 20.04 systems. if you have
 installed some of them, ignore this paragraph.
 The official site of the SDK in Gihub is [Using Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)
@@ -130,7 +130,7 @@ Once complete, the Azure Kinect camera is available without being 'root'.
 ***
 
 
-## Installing in Windows 10 environments (PENDING).
+## 3. Installing in Windows 10 environments (PENDING).
 This section will be updated in the next iterations.
 
 * (Windows installation instructions)[https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md]
