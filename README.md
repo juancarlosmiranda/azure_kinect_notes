@@ -19,8 +19,17 @@ Official tools to manage the camera and sensors can be found in:
 
 
 This document is organized as following:
+* Fast setup using scripts.
 * Installing in Linux environments.
 * Installing in Windows 10 environments.
+
+## Fast setup using scripts
+In Linux systems you can install packages using Bash scripts.
+
+```
+git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes
+```
+
 
 ## Installing in Linux environments
 Essential tools that are not part of the package, but are useful after a default installation on Ubuntu 20.04 systems. if you have
