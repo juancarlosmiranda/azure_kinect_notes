@@ -71,12 +71,21 @@ sudo apt remove libk4abt*
 sudo apt remove libk4a1*
 ```
 
-Install repositories Ubuntu 20.04 and Ubuntu 18.04
+Install repositories Ubuntu 22.04
+```
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
+sudo apt-get update
+```
+
+
+Install repositories Ubuntu 20.04
 ```
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
 sudo apt-get update
 ```
+Install repositories Ubuntu 18.04
 ```
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/18.04/prod
