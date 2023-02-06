@@ -56,7 +56,7 @@ git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azur
 ./install_azure_kinect_camera_u_20.04.sh
 ```
 
-### 1.3 Quick setup in Ubuntu 22.04
+### 1.3 Quick setup in Ubuntu 22.04 (TESTING IN PROCESS)
 
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera_u_22.04.sh
