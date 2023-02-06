@@ -4,10 +4,10 @@
 
 This document contains instructions/notes on how to install the Azure Kinect camera. Here we collect experiences that
 have arisen with the development of [AK_SM_RECORDER](https://pypi.org/project/ak-sm-recorder/)
-and [AK_FRAME_EXTRACTOR](https://pypi.org/project/ak-frame- extractor/). Both are tools that allow recording and
+and [AK_FRAME_EXTRACTOR](https://pypi.org/project/ak-frame-extractor/). Both are tools that allow recording and
 extracting data using Azure Kinect DK camera, if you find this useful please let me know.
 
-This is not intended to replace official documents, it is produced as a complementary guide in my learning. Official
+This **is not intended to replace official documents**, it is produced as a complementary guide in my learning. Official
 Microsoft documents can be found at:
 
 * [Azure Kinect DK documentation](https://docs.microsoft.com/en/azure/kinect-dk/)
@@ -29,7 +29,7 @@ This document is organized as following:
 *
     3. Installing in Windows 10 environments.
 *
-    4. Using manufacturer tools: ka4viewer, recorder.
+    4. Using manufacturer tools: ka4viewer, recorder, pyk4a.
 
 ## 1. Quick configuration using scripts on Linux systems
 
@@ -235,6 +235,8 @@ Check another options of k4arecorder.exe.
 ```
 k4arecorder.exe /?
 ```
+![CMD_k4arecorder.exe](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/CMD_k4arecorder.png?raw=true)
+
 
 ### 4.2 View recorded videos and real time data
 
