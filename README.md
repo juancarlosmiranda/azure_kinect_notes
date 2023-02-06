@@ -43,7 +43,11 @@ Essential tools that are not part of the package, but are useful after a default
 installed some of them, ignore this paragraph.
 The official site of the SDK in Gihub is [Using Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)
 Please consider to take note about special issues in [Linux Devide Setup](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md#linux-device-setup) section.
+In the [official site](https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software) (06/02/2023), the manufacturer provides support for
+Ubuntu 16.04 (Xenial), Ubuntu 18.04 (Bionic), Ubuntu 20.04 (Focal).
 
+
+### 2.1 Common steps
 Remove old packages and make cleaning of the system. 
 ```
 sudo apt-get update
@@ -59,7 +63,6 @@ sudo systemctl enable ssh --now
 sudo systemctl start ssh
 
 ```
-
 
 Install essential tools that are not part of package, but these are useful after a default installation in Ubuntu 20.04 systems. If you have
 installed some of them, ignore this paragraph.
@@ -83,23 +86,7 @@ sudo apt remove libk4abt*
 sudo apt remove libk4a1*
 ```
 
-Install repositories Ubuntu 22.04
-```
-curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
-sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
-sudo apt-get update
-```
-
-wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.2-1_amd64.deb
-
-
-Install repositories Ubuntu 20.04
-```
-curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
-sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
-sudo apt-get update
-```
-Install repositories Ubuntu 18.04
+### 2.1 Install repositories Ubuntu 18.04
 ```
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/18.04/prod
@@ -107,6 +94,26 @@ curl -sSL https://packages.microsoft.com/config/ubuntu/18.04/prod.list | sudo te
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo apt-get update
 ```
+
+### 2.2 Install repositories Ubuntu 20.04
+```
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
+sudo apt-get update
+```
+
+
+### 2.2 Install repositories Ubuntu 22.04
+```
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
+sudo apt-get update
+wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.2-1_amd64.deb
+```
+
+
+### 2.2 Install new package from repository
+To all the aforementioned Linux systems.
 
 Install new package from repository
 ```
@@ -159,7 +166,7 @@ Once complete, the Azure Kinect camera is available without being 'root'.
 ***
 
 
-## 3. Installing in Windows 10 environments (PENDING).
+## 3. Installing in Windows 10 environments
 
 This section will be updated in the next iterations.
 
