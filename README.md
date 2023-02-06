@@ -104,7 +104,7 @@ sudo apt-get update
 ```
 
 
-### 2.2 Install repositories Ubuntu 22.04
+### 2.3 Install repositories Ubuntu 22.04
 ```
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
@@ -113,7 +113,7 @@ wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.2-1_a
 ```
 
 
-### 2.2 Install new package from repository
+### 2.4 Install new package from repository
 To all the aforementioned Linux systems.
 
 Install new package from repository
