@@ -176,9 +176,32 @@ This section will be updated in the next iterations.
 
 ## 4. Using manufacturer tools: ka4viewer, recorder.
 
-Official tools to manage the camera and sensors can be found in:
-* [Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)
-* [Azure Kinect recorder](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-recorder)
+### 4.1 Record videos from CMD
+Official site [Azure Kinect recorder](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-recorder).
+Open CMD console in Windows and enter to the folder.
+```
+cd "C:\Program Files\Azure Kinect SDK v1.4.1\tools"
+```
+You can record data with:
+```
+k4arecorder.exe -l 5 C:\Users\User\output.mkv
+k4arecorder.exe -l 5 %HOMEDRIVE%HOMEPATH%\output.mkv
+```
+Check another options of k4arecorder.exe.
+```
+k4arecorder.exe /?
+```
+
+### 4.2 View recorded videos and real time data
+[Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)
+Open CMD console in Windows and enter to the folder.
+```
+cd "C:\Program Files\Azure Kinect SDK v1.4.1\tools"
+```
+You can open the viewer with:
+```
+kaviewer.exe
+```
 
 
 
