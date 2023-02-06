@@ -34,7 +34,7 @@ This document is organized as following:
 ## 1. Quick configuration using scripts on Linux systems
 
 In Linux systems you can install packages using Bash scripts, tested in Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04. A
-super fast script for impatient people, copy and paste it!!!
+super fast script for impatient people, **copy and paste it!!!**
 
 ### 1.1 Quick setup in Ubuntu 18.04
 
@@ -264,7 +264,7 @@ pip install pyk4a
 
 ## Authorship
 
-Please contact author to report bugs juancarlos.miranda@udl.cat
+Please contact author to report bugs juancarlos.miranda@udl.cat, last update 06/02/2023.
 
 ## Citation
 
