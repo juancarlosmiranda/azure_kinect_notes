@@ -1,6 +1,6 @@
 ![SOFTWARE_PRESENTATION](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/azure_kinect_notes_presentation.png?raw=true)
 
-# Azure Kinect camera setup
+# Azure Kinect camera setup (automated scripts for Linux and Windows)
 
 This document contains instructions/notes on how to install the Azure Kinect camera. Here we collect experiences that
 have arisen with the development of [AK_SM_RECORDER](https://pypi.org/project/ak-sm-recorder/)
