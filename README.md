@@ -22,6 +22,7 @@ This document is organized as following:
 * 1. Fast setup using scripts in Linux systems.
 * 2. Installing in Linux environments.
 * 3. Installing in Windows 10 environments.
+* 4. Using manufacturer tools: ka4viewer, recorder.    
 
 ## 1. Fast setup using scripts in Linux systems
 In Linux systems you can install packages using Bash scripts, tested in Ubuntu 20.04. A super fast script for impatient people, copy and paste it!!!
@@ -50,6 +51,16 @@ sudo apt-get autoremove
 sudo apt-get autoclean
 ```
 
+Install network tools
+```
+sudo apt install net-tools
+sudo apt-get install openssh-server
+sudo systemctl enable ssh --now
+sudo systemctl start ssh
+
+```
+
+
 Install essential tools that are not part of package, but these are useful after a default installation in Ubuntu 20.04 systems. If you have
 installed some of them, ignore this paragraph.
 
@@ -62,6 +73,7 @@ sudo apt-get install ffmpeg
 sudo apt-get install mlocate
 sudo apt-get install locate
 sudo apt install curl
+sudo apt install git
 ```
 
 Remove old packages to avoid conflicts 
@@ -77,6 +89,8 @@ curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
 sudo apt-get update
 ```
+
+wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.2-1_amd64.deb
 
 
 Install repositories Ubuntu 20.04
@@ -146,11 +160,18 @@ Once complete, the Azure Kinect camera is available without being 'root'.
 
 
 ## 3. Installing in Windows 10 environments (PENDING).
+
 This section will be updated in the next iterations.
 
 * (Windows installation instructions)[https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md]
 
-* (Azure Kinect SDK 1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
+* (Azure Kinect SDK v1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
+
+## 4. Using manufacturer tools: ka4viewer, recorder.
+
+Official tools to manage the camera and sensors can be found in:
+* [Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)
+* [Azure Kinect recorder](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-recorder)
 
 
 
