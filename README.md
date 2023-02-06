@@ -1,6 +1,6 @@
 ![SOFTWARE_PRESENTATION](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/azure_kinect_notes_presentation.png?raw=true)
 
-# README - Azure Kinect Setup
+# Azure Kinect camera setup
 
 This document contains instructions/notes on how to install the Azure Kinect camera. Here we collect experiences that
 have arisen with the development of [AK_SM_RECORDER](https://pypi.org/project/ak-sm-recorder/)
@@ -235,8 +235,8 @@ Check another options of k4arecorder.exe.
 ```
 k4arecorder.exe /?
 ```
-![CMD_k4arecorder.exe](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/CMD_k4arecorder.png?raw=true)
 
+![CMD_k4arecorder.exe](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/CMD_k4arecorder.png?raw=true)
 
 ### 4.2 View recorded videos and real time data
 
