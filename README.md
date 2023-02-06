@@ -11,6 +11,7 @@ Official Microsoft documents can be found at:
 
 * [Azure Kinect DK documentation](https://docs.microsoft.com/en/azure/kinect-dk/)
 * [Azure Kinect Sensor SDK download](https://docs.microsoft.com/en/azure/kinect-dk/sensor-sdk-download)
+* [Azure Kinect sensor SDK system requirements](https://learn.microsoft.com/en-us/azure/kinect-dk/system-requirements)
 
 Official tools to manage the camera and sensors can be found in:
 * [Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)
