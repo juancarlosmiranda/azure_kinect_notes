@@ -168,7 +168,7 @@ Once complete, the Azure Kinect camera is available without being 'root'.
 
 ## 3. Installing in Windows 10 environments
 
-This section will be updated in the next iterations.
+Last update at (06/02/2023).
 
 * (Windows installation instructions)[https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md]
 
