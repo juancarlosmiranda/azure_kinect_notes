@@ -83,12 +83,11 @@ Follow these instructions if you want to complete the installation process step 
 script.
 
 The official site of the SDK in Gihub
-is [Using Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)
+is **"[Using Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)"**
 Please consider to take note about special issues
 in [Linux Devide Setup](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md#linux-device-setup)
-section. In
-the [official site](https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software) (
-06/02/2023), the manufacturer provides support for Ubuntu 16.04 (Xenial), Ubuntu 18.04 (Bionic), Ubuntu 20.04 (Focal).
+section. In the [official site](https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software) **(
+06/02/2023)**, the manufacturer provides support for Ubuntu 16.04 (Xenial), Ubuntu 18.04 (Bionic), Ubuntu 20.04 (Focal).
 
 ### 2.1 Common steps
 
