@@ -224,7 +224,7 @@ Last update at (06/02/2023).
 * (Azure Kinect SDK
   v1.4.1.exe)[https://download.microsoft.com/download/3/d/6/3d6d9e99-a251-4cf3-8c6a-8e108e960b4b/Azure%20Kinect%20SDK%201.4.1.exe]
 
-## 4. Using manufacturer tools: ka4viewer, recorder.
+## 4. Using manufacturer tools: ka4viewer, recorder
 
 In this section, the necessary steps are explained to use tools to record, view videos, program with the Azure Kinect
 camera.
@@ -278,6 +278,13 @@ to manage the camera and sensors.
 pip install pyk4a
 ```
 
+## Programming examples (IN PROGRESS)
+* 
+
+## Other resources
+* [Azure Kinect camera information resources](https://www.researchgate.net/post/Azure_Kinect_camera_information_resources).
+
+
 ## Authorship
 
 Please contact author to report bugs juancarlos.miranda@udl.cat, last update 07/02/2023.
@@ -285,4 +292,4 @@ Please contact author to report bugs juancarlos.miranda@udl.cat, last update 07/
 ## Citation
 
 If you find this code useful, please consider citing:
-[https://github.com/juancarlosmiranda/azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes).
+[Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer).
