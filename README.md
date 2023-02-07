@@ -213,7 +213,7 @@ checked into this repo under 'scripts/99-k4a.rules'. To do so:
     Detach and reattach Azure Kinect devices if attached during this process.
 
 Once complete, the Azure Kinect camera is available without being 'root'. ...
-***
+**
 
 ## 3. Installing in Windows 10 environments
 
