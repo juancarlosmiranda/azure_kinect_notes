@@ -36,6 +36,10 @@ sudo apt-get update
 sudo apt-get update
 sudo apt-get install libk4a1.4
 sudo apt install libk4a1.4-dev
+# https://packages.ubuntu.com/focal/amd64/libsoundio1/download
+# download from mirror libsoundio1, it is a dependence of k4a-tools
+wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.1.0-1_amd64.deb
+sudo dpkg -i libsoundio1_1.1.0-1_amd64.deb
 sudo apt install k4a-tools
 
 # Copy rules

@@ -56,7 +56,7 @@ git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azur
 ./install_azure_kinect_camera_u_20.04.sh
 ```
 
-### 1.3 Quick setup in Ubuntu 22.04 (TESTING IN PROCESS)
+### 1.3 Quick setup in Ubuntu 22.04
 According to the manufacturer, support is mentioned only for Ubuntu 18.04 ([Linux installation instructions](https://learn.microsoft.com/en-us/azure/kinect-dk/sensor-sdk-download#linux-installation-instructions)).
 
 ```
@@ -73,7 +73,7 @@ Check the camera with this tool **[k4aviewer](https://docs.microsoft.com/en/azur
 sudo k4aviewer
 ```
 
-* You can check if **k4viewer** is working with these videos recorded with Azure Kinect camera, optional video samples are available at [AK_FRAEX: Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103)
+* You can check if **k4viewer** is working with these videos recorded with Azure Kinect camera, optional video samples are available at [here](https://doi.org/10.5281/zenodo.6968103)
 
 Go to (Section 4. Using manufacturer tools: ka4viewer, recorder), if you wanto to know about the manufacturer tools.
 
@@ -151,12 +151,13 @@ sudo apt-get update
 ```
 
 ### 2.3 Install repositories Ubuntu 22.04
-
+In Ubuntu 22.04 download libsoundio1_1.1.0-1_amd64.deb from [Ubuntu Packages](https://packages.ubuntu.com/focal/amd64/libsoundio1/download)
 ```
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
 sudo apt-add-repository https://packages.microsoft.com/ubuntu/22.04/prod
 sudo apt-get update
-wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.2-1_amd64.deb
+wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.1.0-1_amd64.deb
+sudo dpkg -i libsoundio1_1.1.0-1_amd64.deb
 ```
 
 ### 2.4 Install new package from repository
@@ -230,7 +231,7 @@ camera.
 
 ### 4.1 Record videos from CMD
 
-Official site [Azure Kinect recorder](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-recorder). Open CMD
+Official site **"[Azure Kinect recorder](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-recorder)"**. Open CMD
 console in Windows and enter to the folder.
 
 ```
@@ -254,8 +255,7 @@ k4arecorder.exe /?
 
 ### 4.2 View recorded videos and real time data
 
-[Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)
-Open CMD console in Windows and enter to the folder.
+To use **"[Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer)"** open CMD console in Windows and enter to the folder.
 
 ```
 cd "C:\Program Files\Azure Kinect SDK v1.4.1\tools"
@@ -264,8 +264,10 @@ cd "C:\Program Files\Azure Kinect SDK v1.4.1\tools"
 You can open the viewer with:
 
 ```
-kaviewer.exe
+k4aviewer.exe
 ```
+
+Download the examples videos and check with **k4aviewer** from [here](https://doi.org/10.5281/zenodo.6968103)  
 
 ### 4.3 Optional installation of pyk4a Python Library
 
@@ -278,7 +280,7 @@ pip install pyk4a
 
 ## Authorship
 
-Please contact author to report bugs juancarlos.miranda@udl.cat, last update 06/02/2023.
+Please contact author to report bugs juancarlos.miranda@udl.cat, last update 07/02/2023.
 
 ## Citation
 
