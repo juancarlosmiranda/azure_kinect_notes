@@ -73,7 +73,7 @@ Check the camera with this tool **[k4aviewer](https://docs.microsoft.com/en/azur
 sudo k4aviewer
 ```
 
-* You can check if **k4viewer** is working with these videos recorded with Azure Kinect camera, optional video samples are available at [AK_FRAEX: Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenode.6968103)
+* You can check if **k4viewer** is working with these videos recorded with Azure Kinect camera, optional video samples are available at [AK_FRAEX: Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103)
 
 Go to (Section 4. Using manufacturer tools: ka4viewer, recorder), if you wanto to know about the manufacturer tools.
 
