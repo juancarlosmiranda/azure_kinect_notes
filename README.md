@@ -7,7 +7,7 @@ have arisen with the development of [AK_SM_RECORDER](https://pypi.org/project/ak
 and [AK_FRAME_EXTRACTOR](https://pypi.org/project/ak-frame-extractor/). Both are tools that allow recording and
 extracting data using Azure Kinect DK camera, if you find this useful please let me know.
 
-This **is not intended to replace official documents**, it is produced as a complementary guide in my learning. Official
+This **is not intended to replace official documents**, it is produced as a complementary guide in my learning, official
 Microsoft documents can be found at:
 
 * [Azure Kinect DK documentation](https://docs.microsoft.com/en/azure/kinect-dk/)
@@ -47,7 +47,7 @@ git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azur
 ```
 
 ### 1.2 Quick setup in Ubuntu 20.04
-
+Ubuntu 20.04 is included in the list of supported operating systems ([Configuring the repositories](https://learn.microsoft.com/en-us/windows-server/administration/linux-package-repository-for-microsoft-software)).
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera_u_20.04.sh
 ```
@@ -57,6 +57,7 @@ git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azur
 ```
 
 ### 1.3 Quick setup in Ubuntu 22.04 (TESTING IN PROCESS)
+According to the manufacturer, support is mentioned only for Ubuntu 18.04 ([Linux installation instructions](https://learn.microsoft.com/en-us/azure/kinect-dk/sensor-sdk-download#linux-installation-instructions)).
 
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera_u_22.04.sh
