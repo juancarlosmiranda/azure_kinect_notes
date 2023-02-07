@@ -292,4 +292,4 @@ Please contact author to report bugs juancarlos.miranda@udl.cat, last update 07/
 ## Citation
 
 If you find this code useful, please consider citing:
-[Azure Kinect viewer](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer).
+[Azure Kinect camera setup (automated scripts for Linux and Windows)](https://docs.microsoft.com/en/azure/kinect-dk/azure-kinect-viewer).
