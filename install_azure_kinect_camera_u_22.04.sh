@@ -12,14 +12,14 @@ sudo apt-get autoremove
 sudo apt-get autoclean
 
 # Install essential tools
-sudo apt-get install build-essential
-sudo apt-get install cmake
-sudo apt-get install libgtk2.0-dev
-sudo apt-get install libusb-1.0
-sudo apt-get install ffmpeg
-sudo apt-get install mlocate
-sudo apt-get install locate
-sudo apt install curl
+sudo apt-get install -y build-essential
+sudo apt-get install -y cmake
+sudo apt-get install -y libgtk2.0-dev
+sudo apt-get install -y libusb-1.0
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y mlocate
+sudo apt-get install -y locate
+sudo apt install -y curl
 
 # Install repositories Ubuntu 20.04 and Ubuntu 18.04
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
@@ -34,13 +34,13 @@ sudo apt-get update
 
 #Install new package from repository
 sudo apt-get update
-sudo apt-get install libk4a1.4
-sudo apt install libk4a1.4-dev
+sudo apt-get install -y libk4a1.4
+sudo apt install -y libk4a1.4-dev
 # https://packages.ubuntu.com/focal/amd64/libsoundio1/download
 # download from mirror libsoundio1, it is a dependence of k4a-tools
 wget mirrors.kernel.org/ubuntu/pool/universe/libs/libsoundio/libsoundio1_1.1.0-1_amd64.deb
 sudo dpkg -i libsoundio1_1.1.0-1_amd64.deb
-sudo apt install k4a-tools
+sudo apt install -y k4a-tools
 
 # Copy rules
 sudo cp 99-k4a.rules /etc/udev/rules.d/
