@@ -36,9 +36,10 @@ This document is organized as following:
 In Linux systems you can install packages using Bash scripts, tested in Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04. A
 super fast script for impatient people, **copy and paste it!!!**
 
-### 1.1 Quick setup in Ubuntu 18.04
-
 ![INSTALLING_COMMANDS](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/azure_kinect_01.1.gif?raw=true)
+
+
+### 1.1 Quick setup in Ubuntu 18.04
 
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera_u_18.04.sh
