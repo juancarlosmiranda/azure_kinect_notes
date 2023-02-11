@@ -38,6 +38,8 @@ super fast script for impatient people, **copy and paste it!!!**
 
 ### 1.1 Quick setup in Ubuntu 18.04
 
+![INSTALLING_COMMANDS](https://github.com/juancarlosmiranda/azure_kinect_notes/blob/main/img/azure_kinect_01.1.gif?raw=true)
+
 ```
 git clone https://github.com/juancarlosmiranda/azure_kinect_notes.git && cd azure_kinect_notes && chmod 755 install_azure_kinect_camera_u_18.04.sh
 ```
