@@ -248,6 +248,12 @@ k4arecorder.exe -l 5 C:\Users\User\output.mkv
 k4arecorder.exe -l 5 %HOMEDRIVE%HOMEPATH%\output.mkv
 ```
 
+You can record data using IMU activated with:
+
+```
+k4arecorder.exe --imu -l 5 %HOMEDRIVE%HOMEPATH%\output.mkv
+```
+
 Check another options of k4arecorder.exe.
 
 ```
