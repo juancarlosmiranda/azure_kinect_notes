@@ -1,0 +1,1 @@
+"C:\Program Files\Azure Kinect SDK v1.4.1\tools\k4arecorder.exe" "C:\Users\Usuari\prueba1854.mkv"
