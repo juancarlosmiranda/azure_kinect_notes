@@ -2,10 +2,31 @@
 
 # Azure Kinect camera setup (automated scripts for Linux and Windows)
 
-This document contains instructions/notes on how to install the Azure Kinect camera. Here we collect experiences that
-have arisen with the development of [AK_SM_RECORDER](https://pypi.org/project/ak-sm-recorder/)
-and [AK_FRAME_EXTRACTOR](https://pypi.org/project/ak-frame-extractor/). Both are tools that allow recording and
-extracting data using Azure Kinect DK camera, if you find this useful please let me know.
+This document contains instructions/notes on how to install the Azure Kinect camera. Here I collected experiences that
+have arisen during the development of the following software for Azure Kinect DK camera:
+
+* [AK_ACQS Azure Kinect Acquisition System](https://github.com/GRAP-UdL-AT/ak_acquisition_system)
+* [AK_SM_RECORDER - Azure Kinect Standalone Mode](https://pypi.org/project/ak-sm-recorder/)
+* [AK_FRAEX - Azure Kinect Frame Extractor](https://pypi.org/project/ak-frame-extractor/)
+* [AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker](https://pypi.org/project/ak-sw-benchmarker/)
+* [AK_VIDEO_ANALYSER - Azure Kinect Video Analyser](https://pypi.org/project/ak-video-analyser/)
+
+Another resource I'm trying to maintain is on ResearchGate, but I can't promise it will stay up to date for long.
+
+* [ResearchGate - Azure Kinect camera information resources](https://www.researchgate.net/post/Azure_Kinect_camera_information_resources)
+
+And this research related to RGB-D cameras:
+
+| Resources                   | Description            |
+|---------------------------|-------------------------|
+| [Fruit sizing using AI: A review of methods and challenges](https://doi.org/10.1016/j.postharvbio.2023.112587)  | https://doi.org/10.1016/j.postharvbio.2023.112587 Artificial intelligence Fruit detection Fruit measure Image processing Deep learning Fruit quality |
+| [Assessing automatic data processing algorithms for RGB-D cameras to predict fruit size and weight in apples](https://www.sciencedirect.com/science/article/pii/S0168169923006907)  | https://doi.org/10.1016/j.compag.2023.108302 Azure Kinect Fruit sizing Allometric weight models Apple tree Digital fruit growing |
+| [AKFruitData: A dual software application for Azure Kinect cameras to acquire and extract informative data in yield tests performed in fruit orchard environments](https://doi.org/10.1016/j.softx.2022.101231)  | https://doi.org/10.1016/j.softx.2022.101231 RGB-D camera Data acquisition Data extraction Fruit yield trials Precision fructiculture |
+| [AKFruitYield: Modular benchmarking and video analysis software for Azure Kinect cameras for fruit size and fruit yield estimation in apple orchards](https://www.sciencedirect.com/science/article/pii/S2352711023002443)  | https://doi.org/10.1016/j.softx.2023.101548 RGB-D camera Fruit detection Apple fruit sizing Yield prediction Allometry |
+
+
+If you find these notes useful, please let me know. **I would be very happy**. Feel free to contact me and if the code is useful to you, please let me know.
+
 
 This **is not intended to replace official documents**, it is produced as a complementary guide in my learning, official
 Microsoft documents can be found at:
@@ -13,6 +34,7 @@ Microsoft documents can be found at:
 * [Azure Kinect DK documentation](https://docs.microsoft.com/en/azure/kinect-dk/)
 * [Azure Kinect Sensor SDK download](https://docs.microsoft.com/en/azure/kinect-dk/sensor-sdk-download)
 * [Azure Kinect sensor SDK system requirements](https://learn.microsoft.com/en-us/azure/kinect-dk/system-requirements)
+
 
 Official tools to manage the camera and sensors can be found in:
 
@@ -287,12 +309,12 @@ to manage the camera and sensors.
 pip install pyk4a
 ```
 
-## Programming examples (IN PROGRESS)
+## Programming examples (IN PROGRESS...)
 * 
 
 ## Other resources
 * [Azure Kinect camera information resources](https://www.researchgate.net/post/Azure_Kinect_camera_information_resources).
-
+* [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://zenodo.org/record/8232445)
 
 ## Authorship
 
