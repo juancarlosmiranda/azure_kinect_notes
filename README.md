@@ -28,7 +28,7 @@ And this research related to RGB-D cameras:
 If you find these notes useful, please let me know. **I would be very happy**. Feel free to contact me and if the code is useful to you, please let me know.
 
 
-This **is not intended to replace official documents**, it is produced as a complementary guide in my learning, official
+This **is not intended to replace official documents**, it is produced as a complementary guide in **my learning path**, official
 Microsoft documents can be found at:
 
 * [Azure Kinect DK documentation](https://docs.microsoft.com/en/azure/kinect-dk/)
