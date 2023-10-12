@@ -315,6 +315,9 @@ pip install pyk4a
 ## Other resources
 * [Azure Kinect camera information resources](https://www.researchgate.net/post/Azure_Kinect_camera_information_resources).
 * [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://zenodo.org/record/8232445)
+* [Azure Kinect DK Code Samples Repository](https://github.com/microsoft/Azure-Kinect-Samples). Examples focused in C/C++/C#
+* [pyk41](https://github.com/etiennedub/pyk4a/). In forlder "example/", code written in Python.
+
 
 ## Authorship
 
